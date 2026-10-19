@@ -1,0 +1,48 @@
+/* small custom stuff on top of bootstrap */
+
+body {
+  font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  color: #222;
+}
+
+.hero {
+  background-color: #1e3a5f; /* dark blue, matches the navbar */
+  padding: 80px 0;
+}
+
+.hero h1 {
+  font-weight: 600;
+}
+
+.card {
+  border: 1px solid #e3e3e3;
+  box-shadow: none;
+}
+
+.gallery-img {
+  object-fit: cover;
+  height: 180px;
+  width: 100%;
+}
+
+.progress-bar {
+  background-color: #1e3a5f;
+}
+
+a {
+  color: #1e3a5f;
+}
+
+.btn-primary {
+  background-color: #1e3a5f;
+  border-color: #1e3a5f;
+}
+
+.btn-primary:hover {
+  background-color: #162c48;
+  border-color: #162c48;
+}
+
+footer a:hover {
+  text-decoration: underline !important;
+}
